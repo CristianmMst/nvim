@@ -22,9 +22,12 @@ return {
     opts = {
       ensure_installed = {
         "stylua",
+        "phpstan",
         "css-lsp",
         "html-lsp",
         "prettierd",
+        "intelephense",
+        "php-cs-fixer",
       },
     },
   },
@@ -35,6 +38,7 @@ return {
         "c",
         "lua",
         "tsx",
+        "php",
         "css",
         "html",
         "json",
