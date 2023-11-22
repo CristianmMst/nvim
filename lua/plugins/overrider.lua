@@ -1,5 +1,11 @@
 return {
   {
+    "LazyVim/Lazyvim",
+    opts = {
+      colorscheme = "catppuccin",
+    },
+  },
+  {
     "nvim-neo-tree/neo-tree.nvim",
     keys = {
       { "<leader>e", false },
