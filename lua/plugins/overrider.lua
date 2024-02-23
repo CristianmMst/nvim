@@ -3,6 +3,7 @@ return {
     "williamboman/mason.nvim",
     opts = function(_, opts)
       table.insert(opts.ensure_installed, "pint")
+      table.insert(opts.ensure_installed, "autopep8")
     end,
   },
   {
@@ -12,6 +13,7 @@ return {
       local nls = require("null-ls")
       opts.sources = opts.sources or {}
       table.insert(opts.sources, nls.builtins.formatting.pint)
+      table.insert(opts.sources, nls.builtins.formatting.autopep8)
     end,
   },
   {
@@ -20,6 +22,7 @@ return {
     opts = {
       formatters_by_ft = {
         ["php"] = { "pint" },
+        ["python"] = { "autopep8" },
       },
     },
   },
