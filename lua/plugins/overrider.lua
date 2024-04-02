@@ -1,9 +1,17 @@
 return {
   {
+    "mfussenegger/nvim-lint",
+    opts = {
+      events = { "BufWritePost", "BufReadPost", "InsertLeave" },
+      linters_by_ft = {
+        python = { "pylint" },
+      },
+    },
+  },
+  {
     "williamboman/mason.nvim",
     opts = function(_, opts)
       table.insert(opts.ensure_installed, "pint")
-      table.insert(opts.ensure_installed, "autopep8")
     end,
   },
   {
@@ -22,7 +30,6 @@ return {
     opts = {
       formatters_by_ft = {
         ["php"] = { "pint" },
-        ["python"] = { "autopep8" },
       },
     },
   },
