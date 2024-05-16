@@ -54,6 +54,7 @@ return {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
+        "pylint",
         "stylua",
         "css-lsp",
         "html-lsp",
