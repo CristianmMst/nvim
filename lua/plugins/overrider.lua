@@ -58,7 +58,6 @@ return {
         "stylua",
         "css-lsp",
         "html-lsp",
-        "prettierd",
       },
     },
   },
