@@ -34,18 +34,11 @@ return {
   },
   {
     "nvim-neo-tree/neo-tree.nvim",
-    keys = {
-      { "<leader>e", false },
-      { "<leader>E", false },
-      { "<leader>fE", false },
-      { "<leader>n", "<leader>fe", desc = "Explorer NeoTree (root dir)", remap = true },
-    },
     opts = {
       window = {
         mappings = {
           ["l"] = "open",
           ["h"] = "close_node",
-          ["<space>"] = "none",
         },
       },
     },
