@@ -1,5 +1,9 @@
 return {
   {
+    "SmiteshP/nvim-navic",
+    enabled = false,
+  },
+  {
     "nvimdev/dashboard-nvim",
     enabled = false,
   },
