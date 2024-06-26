@@ -8,7 +8,7 @@ return {
     enabled = false,
   },
   {
-    "folke/tokyonight.nvim",
+    "catppuccin/nvim",
     enabled = false,
   },
   {
