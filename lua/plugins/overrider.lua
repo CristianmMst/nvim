@@ -1,5 +1,13 @@
 return {
   {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      window = {
+        position = "right",
+      },
+    },
+  },
+  {
     "nvim-lspconfig",
     opts = {
       inlay_hints = { enabled = false },
