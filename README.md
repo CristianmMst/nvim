@@ -11,5 +11,5 @@ sudo pacman -S neovim lazygit nodejs npm ripgrep
 ### Configuracion de nvim.
 
 ```bash
-git clone https://github.com/CristianmMst/nvim.git
+git clone https://github.com/CristianmMst/nvim.git ~/.config
 ```
