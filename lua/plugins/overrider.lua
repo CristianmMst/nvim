@@ -14,15 +14,6 @@ return {
     },
   },
   {
-    "mfussenegger/nvim-lint",
-    opts = {
-      events = { "BufWritePost", "BufReadPost", "InsertLeave" },
-      linters_by_ft = {
-        python = { "pylint" },
-      },
-    },
-  },
-  {
     "nvim-neo-tree/neo-tree.nvim",
     opts = {
       window = {
@@ -37,7 +28,6 @@ return {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
-        "pylint",
         "stylua",
         "css-lsp",
         "html-lsp",
