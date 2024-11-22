@@ -1,22 +1,6 @@
 return {
   {
-    "SmiteshP/nvim-navic",
-    enabled = false,
-  },
-  {
-    "nvimdev/dashboard-nvim",
-    enabled = false,
-  },
-  {
-    "catppuccin/nvim",
-    enabled = false,
-  },
-  {
-    "rcarriga/nvim-notify",
-    enabled = false,
-  },
-  {
-    "nvim-pack/nvim-spectre",
+    "folke/persistence.nvim",
     enabled = false,
   },
   {
@@ -24,11 +8,11 @@ return {
     enabled = false,
   },
   {
-    "SmiteshP/nvim-navic",
+    "catppuccin/nvim",
     enabled = false,
   },
   {
-    "folke/persistence.nvim",
+    "folke/tokyonight.nvim",
     enabled = false,
   },
 }
