@@ -1,5 +1,17 @@
 return {
   {
+    "folke/snacks.nvim",
+    keys = {
+      {
+        "<c-ñ>",
+        function()
+          Snacks.terminal()
+        end,
+        desc = "Toggle Terminal",
+      },
+    },
+  },
+  {
     "nvim-telescope/telescope.nvim",
     opts = {
       defaults = {
