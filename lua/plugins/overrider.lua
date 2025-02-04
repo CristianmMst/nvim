@@ -22,14 +22,6 @@ return {
     },
   },
   {
-    "nvim-neo-tree/neo-tree.nvim",
-    opts = {
-      window = {
-        position = "right",
-      },
-    },
-  },
-  {
     "nvim-lspconfig",
     opts = {
       inlay_hints = { enabled = false },
@@ -38,7 +30,13 @@ return {
   {
     "nvim-neo-tree/neo-tree.nvim",
     opts = {
+      filesystem = {
+        filtered_items = {
+          never_show = { "__pycache__", ".git", "node_modules" },
+        },
+      },
       window = {
+        position = "right",
         mappings = {
           ["l"] = "open",
           ["h"] = "close_node",
